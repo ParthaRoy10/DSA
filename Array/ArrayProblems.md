@@ -18,4 +18,4 @@ Input: nums = [1, 2, 3, 4]
 
 Output: false
 
-[Solutions](Solutions/Solution1.java)
+[Solution](Solutions/Solution1.java)
