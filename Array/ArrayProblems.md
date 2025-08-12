@@ -88,3 +88,39 @@ I have used a hashmap to track the index of elements .
 Time complexity `O(n)` space complexity `O(n)`
 
 [Solution](Solutions/Solution3.java)
+
+## Problem 4:
+
+### Problem Description :
+
+Group Anagrams
+
+Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
+
+An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
+
+Example 1:
+
+Input: strs = ["act","pots","tops","cat","stop","hat"]
+
+Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
+
+Example 2:
+
+Input: strs = ["x"]
+
+Output: [["x"]]
+
+Example 3:
+
+Input: strs = [""]
+
+Output: [[""]]
+
+### Solution :
+
+To solve the problem I have created an Map of HashMap and List . That will track the unique frequencies and the corresponding words.
+
+After populating the frequency table of all the strings it cheaks if the frequency table is present in our Map or not . If present then it simply adds the string to the list that has the same frequency with the key. If not present then it simply adds the frequency table and a new list to the map.
+
+[Solution](Solutions/Solution4.java)
