@@ -165,4 +165,4 @@ First crete the possible buckets according to the frequency.
 
 Then Simply create the result List.
 
-[Solution][Solution](Solutions/Solution5.java)
+[Solution](Solutions/Solution5.java)
