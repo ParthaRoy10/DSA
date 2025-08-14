@@ -166,3 +166,34 @@ First crete the possible buckets according to the frequency.
 Then Simply create the result List.
 
 [Solution](Solutions/Solution5.java)
+
+## Problem 6:
+
+### Encode and Decode Strings
+
+Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings.
+
+Please implement encode and decode
+
+Example 1:
+
+Input: ["neet","code","love","you"]
+
+Output:["neet","code","love","you"]
+
+Example 2:
+
+Input: ["we","say",":","yes"]
+
+Output: ["we","say",":","yes"]
+
+### Solution :
+
+To solve the problem i have encoded the string as `length`,`'#'`,`String`.
+
+While decoding The first letter wiil always be `String length` upto `#` Encountered. After the string length the next integer will be again the length.
+
+[Solution](Solutions/Solution5.java)
+
+### Complexity :
+
